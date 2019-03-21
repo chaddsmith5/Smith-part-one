@@ -1,0 +1,93 @@
+body {
+  background-color: #F0ECEE;
+  font-family:'Fira Sans',sans-serif;
+}
+h3 {
+  font-size:20px;
+}
+button:hover {
+  background-color:#CCC;
+  color: #FF4850;
+}
+button {
+  width: auto;
+}
+.bold { font-weight: bold; }
+.red { color: #FF0000; }
+button {
+  background-color:#FF4850;
+  width: 100%;
+  font-family:'Fira Sans',sans-serif;
+  font-size: 20px;
+  font-weight:200;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+a,u{
+  text-decoration: none;
+  color: #88898B;
+}
+a:hover {
+  color: #FF4850;
+}
+li {
+  font-family: fira-sans, sans-serif;
+  font-weight:400;
+  padding: 3px;
+  text-decoration: none;
+}
+p{
+  color:#88898B;
+}
+ul {padding: 0px;
+	list-style-type: none;
+	text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+
+h3 {
+ justify-self:flex-start;
+  padding:5px;
+  margin-right: auto;
+}
+html body {
+  height: 100%;
+  background:url('/bulldog.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover ;
+  font-family:'Fira Sans',sans-serif;
+}
+.header {
+  display: flex;
+  align-items: baseline;
+  justify-content:flex-end;
+  flex-flow: row wrap;
+  list-style-type: none;
+}
+li {
+   display:inline;
+   padding: 4px 10px;
+}
+.adopt {
+  justify-self:flex-start;
+  margin-right: auto;
+}
+.container2 {
+  width: 450px;
+  padding-top: 100px;
+}
+.bold { font-weight: bold; }
+.red { color: #FF0000; }
+button {
+  background-color:#FF4850;
+  font-family:'Fira Sans',sans-serif;
+  font-size: 16px;
+  font-weight:200;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: auto;
+}
+
+
